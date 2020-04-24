@@ -4,6 +4,7 @@
   "description": "A tomagochi like game developed in a workshop held by Brian Holt at Frontend Masters",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
