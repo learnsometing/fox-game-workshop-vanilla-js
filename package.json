@@ -20,5 +20,8 @@
     "lint": "jest",
     "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
     "parcel-bundler": "^1.12.4"
-  }
+  },
+  "browserslist": [
+    "last 2 Firefox versions"
+  ]
 }
